@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="e4325b042e798e411f5794b32a75c33e6b2d40424abbb373b3665bbaddd3e07c.html">Academy Choucair</a></span>
+                > <span class="truncate-60"><a
+                    href="8943ac7ddeb72592e2d69506843cbf98c16b7d6b3df3b198039bca6c3f06a754.html">trying to make a login into the web page Utest.com, making a new user and completing the formulary </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-09-2022 19:04</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Academy Choucair </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I want to learn how to automate in screenplay at the Choucair Academy with the automation course
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">trying to make a login into the web page Utest.com, making a new user and completing the formulary
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="239da3d6d5e1ff3573dab018d3b489e0bb3d7ef61f8dff4f042005208e784227.png" title=" Given we want to optimize how we register new users into the web page" width="1920"/>
+                <img src="239da3d6d5e1ff3573dab018d3b489e0bb3d7ef61f8dff4f042005208e784227.png" title=" User open up" width="1920"/>
+                <img src="239da3d6d5e1ff3573dab018d3b489e0bb3d7ef61f8dff4f042005208e784227.png" title=" User opens the Utest page" width="1920"/>
+                <img src="239da3d6d5e1ff3573dab018d3b489e0bb3d7ef61f8dff4f042005208e784227.png" title=" User open up (completed)" width="1920"/>
+                <img src="239da3d6d5e1ff3573dab018d3b489e0bb3d7ef61f8dff4f042005208e784227.png" title=" Given we want to optimize how we register new users into the web page (completed)" width="1920"/>
+                <img src="f780bd0d810a0ea3a10a3824a22a07809902c457194b7b4d18ede286d470f9fc.png" title=" When The user clicks on the option to register and proceeds to complete the form
+| str_First_Name | str_Last_Name | str_Email | str_City | str_Zip | str_Country | str_Computer | str_Version | str_Language | str_MobilDev | str_Model | str_OS | str_Pass |
+| JuanF | Carvajal | pruebaaa32tt4y79@hotmail.com | Envigado | 055421 | Colombia | Windows | 10 | Spanish | Apple | Iphone 11 | iOS 16.0 | IMadeItHappened21 |" width="1920"/>
+                <img src="f780bd0d810a0ea3a10a3824a22a07809902c457194b7b4d18ede286d470f9fc.png" title=" User register" width="1920"/>
+                <img src="f780bd0d810a0ea3a10a3824a22a07809902c457194b7b4d18ede286d470f9fc.png" title=" User clicks on Button that guide us to the register form" width="1920"/>
+                <img src="da495e4013c36924357daea5a005e377db3e3d3adee71cd729cf5f9f31c71b69.png" title=" User enters 'JuanF' into Element where the user register the first name" width="1920"/>
+                <img src="1f237862e889e2356533f83b3f0a8aa59a46415951d5c13a48edbf3d516e215f.png" title=" User enters 'Carvajal' into Element where the user register the last name" width="1920"/>
+                <img src="f89ee60e6c390a2cd2d2b580210a706d16e4a886b0e24a92e6053b0cf6d1f5ac.png" title=" User enters 'pruebaaa32tt4y79@hotmail.com' into Element where the user register the email" width="1920"/>
+                <img src="9229f5b1d98b13197a60ac0591f1354f9ac783c30665cb39aebadfe0226c493c.png" title=" User clicks on Element where the user register the birth month" width="1920"/>
+                <img src="e8fd0145d63d3ede239fb6c90a11b7542043f378262271e6ed2d6595067799cd.png" title=" User clicks on Element where the user register the birth Day" width="1920"/>
+                <img src="f3c2d3d741d95c3554a19f60ccf9f10cf2f7c98ee3f81db54d9493a175ef9f0e.png" title=" User clicks on Element where the user register the birt year" width="1920"/>
+                <img src="d933876a02f579b4a6f298bc9cccec1b63c6e7dbb6d3d697b0737f407a93035b.png" title=" User clicks on Button that guide us to the next part of the form" width="1920"/>
+                <img src="d933876a02f579b4a6f298bc9cccec1b63c6e7dbb6d3d697b0737f407a93035b.png" title=" User register (completed)" width="1920"/>
+                <img src="de8d152e7334228efb86f03e5d1d8822cc339b62641d81f74f2ae7e210168a34.png" title=" User register2" width="1920"/>
+                <img src="de8d152e7334228efb86f03e5d1d8822cc339b62641d81f74f2ae7e210168a34.png" title=" User enters '' into Element where the user register the city" width="1920"/>
+                <img src="615a4f7a41105a2132f5ba0b4b3f013a959036ef970ba025cb73e18cc4c993a1.png" title=" User enters 'Envigado' into Element where the user register the city" width="1920"/>
+                <img src="5ff4a9eccaeb1ed69083f20ff9e2535cbcd283d071a5c6406a4bb935aa1296b7.png" title=" User enters '055421' into Element where the user register the zipcode" width="1920"/>
+                <img src="3067874d340d2709b8768736ee1710e218ea020fd345ec28dc1562573855fff5.png" title=" User clicks on container of the country" width="1920"/>
+                <img src="36cdbe1a8ee31de48269691ab8f22d45e7b1eed9df32c6fd407c66c7257e4d07.png" title=" User enters 'Colombia' into Where do we select the country" width="1920"/>
+                <img src="33b57de542955415d0db16424226684c0308ca80467ce746b50cb13718c3698f.png" title=" User clicks on Button that guide us to the next part of the form" width="1920"/>
+                <img src="33b57de542955415d0db16424226684c0308ca80467ce746b50cb13718c3698f.png" title=" User register2 (completed)" width="1920"/>
+                <img src="3f2816d4166b767a35e907cc894f4c5dbff04747fb96ffaa2ae189d39d77e6fa.png" title=" User register3" width="1920"/>
+                <img src="3f2816d4166b767a35e907cc894f4c5dbff04747fb96ffaa2ae189d39d77e6fa.png" title=" User clicks on Container of the computer" width="1920"/>
+                <img src="a6832e490f594c98cd6a0da1c150c2f353d7a6e25306daacdedf9338f10702a6.png" title=" User enters 'Windows' into Select your computer" width="1920"/>
+                <img src="24b7081c787d19c92fb80593c6c5a44d44ca3263f21ce1c2b4bd70c347b920f1.png" title=" User clicks on Container of version" width="1920"/>
+                <img src="53d7d0cf2316603525ffd9000330afa74f9cd1072b14ac153cf02d467702fe09.png" title=" User enters '10' into Select your computer version" width="1920"/>
+                <img src="04d2f822ea6e8650aa36aa41fea86f21ff12fe1c078bd59ff616da50c25a61cb.png" title=" User clicks on container of language" width="1920"/>
+                <img src="cfa2e3b90735383630338eb2a7e503237ca86eb37d27e80943c73050605ee214.png" title=" User enters 'Spanish' into Select your computer language" width="1920"/>
+                <img src="351ea3844e4e105ac497dd4f9c33c3914e9ba0bdf63d83d0b247e2c47371369b.png" title=" User clicks on container of Mobil device" width="1920"/>
+                <img src="bb9f681e1b43c1486d65d1197ca4bbdc8f70a21ce17825a780efa6a7a4dc87a7.png" title=" User enters 'Apple' into Select your Mobil device" width="1920"/>
+                <img src="27690375eb8997c61cb74bff9ed247794c9dba276ed4351a49eb176b188a72b7.png" title=" User types 'ARROW_DOWN' in Select your Mobil device" width="1920"/>
+                <img src="3d30b2b3d947c0eab89ba671fa715fce0ccd024769245fa4ed90086f34cb5b33.png" title=" User types 'ENTER' in Select your Mobil device" width="1920"/>
+                <img src="45dea439432efb61ce1caa5b31d94cdcbd48d50dbbb087e0e98adc6cffde41f9.png" title=" User clicks on container of Mobil model" width="1920"/>
+                <img src="55f40c6c1bc9aacc3aab580d3afd4fd3787079c9d65cde3cee31245a23943b88.png" title=" User enters 'Iphone 11' into Select your Mobil model" width="1920"/>
+                <img src="f09cb3bc32e5fdfb6db2fb576e5daeeef8aacdbd6df6d50e7d86ccb292326762.png" title=" User types 'ENTER' in Select your Mobil model" width="1920"/>
+                <img src="df998096fa199b0efaaf5452fcc7b24ae23038ffb6f052fe17069d614ceefe89.png" title=" User clicks on container of Mobil OS" width="1920"/>
+                <img src="841862eb599341345b72cf174cc9299d1246868030b15c4ee1449223255456a2.png" title=" User enters 'iOS 16.0' into Select your Mobil OS" width="1920"/>
+                <img src="9db37e4d9f30ff83622da7001caac366f61d9bfe363a5009efb3b6c223e0f2a2.png" title=" User types 'ARROW_DOWN' in Select your Mobil OS" width="1920"/>
+                <img src="414cccd13501df0fcc1c8c7a9f46819cecb78a429b2d3b15e3573d307a5ab5a0.png" title=" User types 'ENTER' in Select your Mobil OS" width="1920"/>
+                <img src="2b216ec844dfb6335192354f3378e6dcc56e8433bb54588b36ccbb45a7678a2c.png" title=" User clicks on continue with the regist form" width="1920"/>
+                <img src="2b216ec844dfb6335192354f3378e6dcc56e8433bb54588b36ccbb45a7678a2c.png" title=" User register3 (completed)" width="1920"/>
+                <img src="019fc72a0fe2f9eca01ab265013b3bea8a4f8d8e418350f39fcb59ad014aeda6.png" title=" User register4" width="1920"/>
+                <img src="019fc72a0fe2f9eca01ab265013b3bea8a4f8d8e418350f39fcb59ad014aeda6.png" title=" User enters 'IMadeItHappened21' into Write your password" width="1920"/>
+                <img src="e04d419dadf0e4b0117c49c22890b2fb0a949861e639947dd060ea204175b833.png" title=" User enters 'IMadeItHappened21' into Confirm your password" width="1920"/>
+                <img src="f659fb00db8e6a24ccd7fdcb4e88d8d703278f78219f20421e0e5268b5fc4ad5.png" title=" User clicks on Check Mark  Terms" width="1920"/>
+                <img src="4bf8a24fdb0cfef4753e059bdf96bf50c6c2f4274c214d77e746cbb416005bf4.png" title=" User clicks on Check Mark  Privacy" width="1920"/>
+                <img src="8002179dadca8a270e69926ed5cbe5140ddf4b02d37e324e12a6bedc73ba958f.png" title=" User clicks on Complete the registration" width="1920"/>
+                <img src="8002179dadca8a270e69926ed5cbe5140ddf4b02d37e324e12a6bedc73ba958f.png" title=" User register4 (completed)" width="1920"/>
+                <img src="8002179dadca8a270e69926ed5cbe5140ddf4b02d37e324e12a6bedc73ba958f.png" title=" When The user clicks on the option to register and proceeds to complete the form
+| str_First_Name | str_Last_Name | str_Email | str_City | str_Zip | str_Country | str_Computer | str_Version | str_Language | str_MobilDev | str_Model | str_OS | str_Pass |
+| JuanF | Carvajal | pruebaaa32tt4y79@hotmail.com | Envigado | 055421 | Colombia | Windows | 10 | Spanish | Apple | Iphone 11 | iOS 16.0 | IMadeItHappened21 | (completed)" width="1920"/>
+                <img src="13c25272bcd093594a41d5993fc8ed2255cd341225516d04844fa87779d9d482.png" title=" Then The form was completed successfully
+| str_Platform_Text |
+| Participate in the uTest Academy |" width="1920"/>
+                <img src="13c25272bcd093594a41d5993fc8ed2255cd341225516d04844fa87779d9d482.png" title=" Then answer" width="1920"/>
+                <img src="13c25272bcd093594a41d5993fc8ed2255cd341225516d04844fa87779d9d482.png" title=" Then The form was completed successfully
+| str_Platform_Text |
+| Participate in the uTest Academy | (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
